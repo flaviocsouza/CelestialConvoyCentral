@@ -1,0 +1,11 @@
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\bin\Debug\net8.0\CelestialConvoyCentral.Core.deps.json
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\bin\Debug\net8.0\CelestialConvoyCentral.Core.dll
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\bin\Debug\net8.0\CelestialConvoyCentral.Core.pdb
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\CelestialConvoyCentral.Core.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\CelestialConvoyCentral.Core.AssemblyInfoInputs.cache
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\CelestialConvoyCentral.Core.AssemblyInfo.cs
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\CelestialConvoyCentral.Core.csproj.CoreCompileInputs.cache
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\CelestialConvoyCentral.Core.dll
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\refint\CelestialConvoyCentral.Core.dll
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\CelestialConvoyCentral.Core.pdb
+c:\Users\Flavio\source\repos\CelestialConvoyCentral\src\CelestialConvoyCentral.Core\obj\Debug\net8.0\ref\CelestialConvoyCentral.Core.dll

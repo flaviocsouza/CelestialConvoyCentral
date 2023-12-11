@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "CelestialConvoyCentral.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CelestialConvoyCentral.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CelestialConvoyCentral.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CelestialConvoyCentral.Core/1.0.0": {
+      "type": "project",
+      "path": "../CelestialConvoyCentral.Core/CelestialConvoyCentral.Core.csproj",
+      "msbuildProject": "../CelestialConvoyCentral.Core/CelestialConvoyCentral.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "CelestialConvoyCentral.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Flavio\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Flavio\\source\\repos\\CelestialConvoyCentral\\src\\CelestialConvoyCentral.Fleet.Domain\\CelestialConvoyCentral.Fleet.Domain.csproj",
+      "projectName": "CelestialConvoyCentral.Fleet.Domain",
+      "projectPath": "C:\\Users\\Flavio\\source\\repos\\CelestialConvoyCentral\\src\\CelestialConvoyCentral.Fleet.Domain\\CelestialConvoyCentral.Fleet.Domain.csproj",
+      "packagesPath": "C:\\Users\\Flavio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Flavio\\source\\repos\\CelestialConvoyCentral\\src\\CelestialConvoyCentral.Fleet.Domain\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Flavio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Users\\Flavio\\source\\repos\\CelestialConvoyCentral\\src\\CelestialConvoyCentral.Core\\CelestialConvoyCentral.Core.csproj": {
+              "projectPath": "C:\\Users\\Flavio\\source\\repos\\CelestialConvoyCentral\\src\\CelestialConvoyCentral.Core\\CelestialConvoyCentral.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
