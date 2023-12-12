@@ -2,7 +2,7 @@
 
 namespace CelestialConvoyCentral.Fleet.Domain;
 
-public class Starship : Entity
+public class Starship : Entity, IAggregateRoot
 {
     public string Name { get; private set; }
     public string Model { get; private set; }
@@ -12,6 +12,9 @@ public class Starship : Entity
     public decimal Propellant { get; private set; }
     public bool IsUnderMaintenance  { get; private set; }
     public bool IsDestroyedInCombat { get; private set; }
+
+    public Guid MaintenanceId { get; private set;}
+
     public List<Maintenance> MaintenanceHistory { get; private set;}
     public Maintenance? Maintenance { get; private set;}
 

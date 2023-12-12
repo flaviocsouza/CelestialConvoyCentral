@@ -1,6 +1,6 @@
-﻿namespace CelestialConvoyCentral.Core;
+﻿namespace CelestialConvoyCentral.Core.Data;
 
 public interface IUnitOfWork
 {
-        Task<bool> Commit();
+    Task<bool> Commit();
 }

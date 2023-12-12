@@ -1,4 +1,4 @@
-﻿using CelestialConvoyCentral.Core;
+﻿using CelestialConvoyCentral.Core.Data;
 using CelestialConvoyCentral.Fleet.Domain;
 using Microsoft.EntityFrameworkCore;
 

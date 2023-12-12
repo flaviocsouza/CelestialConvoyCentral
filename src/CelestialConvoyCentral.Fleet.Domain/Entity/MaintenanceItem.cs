@@ -9,6 +9,10 @@ public class MaintenanceItem : Entity
     public string Description { get; private set; }
     public decimal Price { get; private set; }
 
+    public Guid MaintenanceId { get; private set;}
+
+    public Maintenance Maintenance { get; private set;}
+
     public MaintenanceItem(string model, decimal price, string description, string? manufacturerId = null)
     {
         Price = price;

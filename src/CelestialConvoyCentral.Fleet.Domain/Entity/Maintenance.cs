@@ -9,7 +9,9 @@ public class Maintenance : Entity
     public DateTime EstimatedCompletionDate { get; private set; }
     public decimal? Budget { get; private set; } 
     public DateTime? CompletionDate { get; private set; }
-    private List<MaintenanceItem> Items { get; }
+    public List<MaintenanceItem> Items { get; }
+
+    public Starship Starship { get; private set;}
 
     public Maintenance(Guid starshipId, decimal estimateBudget, DateTime estimatedCompletionDate, decimal? budget = null, DateTime? completionDate = null)
     {
