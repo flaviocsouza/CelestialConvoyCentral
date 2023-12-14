@@ -15,6 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelestialConvoyCentral.Flee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelestialConvoyCentral.Fleet.API", "src\CelestialConvoyCentral.Fleet.API\CelestialConvoyCentral.Fleet.API.csproj", "{9D712F92-208F-40C9-9264-CE14FBFEA212}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UtilityServices", "UtilityServices", "{FB8517BB-401F-4BCE-9D10-981CC6F03CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilityServices.ProviderAPI", "src\UtilityServices.ProviderAPI\UtilityServices.ProviderAPI.csproj", "{1D62A58F-3F24-44B7-9094-0B79DE7BF4EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CelestialConvoyCentral.Fleet.Client", "src\CelestialConvoyCentral.Fleet.Client\CelestialConvoyCentral.Fleet.Client.csproj", "{D2F53F26-7458-4F53-8AD0-473DA451CD39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +43,14 @@ Global
 		{9D712F92-208F-40C9-9264-CE14FBFEA212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D712F92-208F-40C9-9264-CE14FBFEA212}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D712F92-208F-40C9-9264-CE14FBFEA212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D62A58F-3F24-44B7-9094-0B79DE7BF4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D62A58F-3F24-44B7-9094-0B79DE7BF4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D62A58F-3F24-44B7-9094-0B79DE7BF4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D62A58F-3F24-44B7-9094-0B79DE7BF4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2F53F26-7458-4F53-8AD0-473DA451CD39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2F53F26-7458-4F53-8AD0-473DA451CD39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2F53F26-7458-4F53-8AD0-473DA451CD39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2F53F26-7458-4F53-8AD0-473DA451CD39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +60,7 @@ Global
 		{95C795DE-64C1-4443-8776-1FBE911E2598} = {CC79287D-E804-422B-971A-05C3E89A0D57}
 		{552BF5D8-BDE9-4C69-A68F-2E115A39647E} = {CC79287D-E804-422B-971A-05C3E89A0D57}
 		{9D712F92-208F-40C9-9264-CE14FBFEA212} = {CC79287D-E804-422B-971A-05C3E89A0D57}
+		{1D62A58F-3F24-44B7-9094-0B79DE7BF4EC} = {FB8517BB-401F-4BCE-9D10-981CC6F03CE5}
+		{D2F53F26-7458-4F53-8AD0-473DA451CD39} = {CC79287D-E804-422B-971A-05C3E89A0D57}
 	EndGlobalSection
 EndGlobal
