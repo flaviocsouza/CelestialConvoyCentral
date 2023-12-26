@@ -16,7 +16,7 @@ public class StarshipManufacturerClient : BaseClient,  IStarshipManufacturerClie
         _mapper = mapper;
     }
 
-    public async Task<StarshipModel> GetModelByClientID(int id)
+    public async Task<StarshipModel?> GetModelByClientID(int id)
     {
         var response = await GetAsync($"{APIURL}/{id}");
 

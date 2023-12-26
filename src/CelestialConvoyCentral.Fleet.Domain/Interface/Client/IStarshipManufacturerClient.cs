@@ -2,5 +2,5 @@
 
 public interface IStarshipManufacturerClient
 {
-    public Task<StarshipModel> GetModelByClientID(int id);
+    public Task<StarshipModel?> GetModelByClientID(int id);
 }
